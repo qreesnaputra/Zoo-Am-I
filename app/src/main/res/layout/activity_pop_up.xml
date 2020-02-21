@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_custom_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="2dp"
+    android:background="#FFFFFF"
+    >
+
+    <TextView
+        android:layout_above="@+id/imageView"
+        android:layout_gravity="center"
+        android:id="@+id/tvBenar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jawaban Kamu Benar!"
+        android:padding="25sp"
+        android:textColor="#00C853"
+        />
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imageView"
+        android:src="@drawable/bear"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_above="@+id/imageView"
+        />
+
+    <TextView
+        android:id="@+id/keterangan_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ini adalah contoh dari penerapan popup window.Kalian bisa membuat text,gambar atau widget kalian disini"
+        android:layout_centerInParent="true"
+        android:padding="25sp"
+        android:textColor="#000000"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/keluar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:text="Keluar"
+            android:layout_alignTop="@+id/button"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="36dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:text="Main lagi"
+            android:id="@+id/button" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:padding="25sp"
+        android:textColor="#000000"
+        />
+
+</LinearLayout>
+</ScrollView>

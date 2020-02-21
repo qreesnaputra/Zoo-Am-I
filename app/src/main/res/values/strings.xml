@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Zoo Am I?</string>
+    <string name="about">Zoo Am I? version 1.0 \n
+        Copyright © 2017 \n\n
+        Untuk Informasi lebih lanjut silahkan kontak ke:\n
+        1) Qreesna Ramadhona Putra \n 1511503383@student.budiluhur.ac.id\n\n
+        2)Jovansgha Avegad \n 1511500934@student.budiluhur.ac.id\n\n
+        Zoo Am I? menjadikan Smart Phone lebih positif untuk\n anak-anak
+    </string>
+    <string name="help"> Bagaimana cara untuk memainkan permainan ini?\n\n
+        Pada tampilan awal, pilih tombol mulai/start.\n
+        Kemudian permainan akan dimulai,saat permainan dimulai maka akan muncul clue(petunjuk)\n
+        berdasarkan ciri-ciri dari suatu hewan,lalu kalian harus menebak apa nama hewan tersebut.\n
+        Setelah menjawab akan muncul pop up benar atau salah.\n
+        Jika benar maka akan ditampilkan gambar dari hewan tersebut, kemudian juga terdapat pilihan\n
+        apakah ingin lanjut bermain atau keluar. Jika salah, maka akan keluar pop up yang akan memberi tahu bahwa
+        pilihan anda salah, dan kemudian diberi kesempatan untuk memilih kembali jawaban yang benar.
+</string>
+</resources>
